@@ -1,0 +1,26 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'link',
+1 verbose cli   '../babylon' ]
+2 info using npm@3.5.2
+3 info using node@v5.2.0
+4 verbose stack Error: Argument #2: Expected array but got string
+4 verbose stack     at EventEmitter.install (/usr/local/lib/node_modules/npm/lib/install.js:175:3)
+4 verbose stack     at Object.commandCache.(anonymous function) (/usr/local/lib/node_modules/npm/lib/npm.js:216:13)
+4 verbose stack     at /usr/local/lib/node_modules/npm/lib/link.js:89:24
+4 verbose stack     at FSReqWrap.oncomplete (fs.js:83:15)
+5 verbose cwd /Users/pauljohnson/Programming/js/babel-plugin-transform-type-provider/test/fixtures/type-providers/inline
+6 error Darwin 15.4.0
+7 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "link" "../babylon"
+8 error node v5.2.0
+9 error npm  v3.5.2
+10 error code EINVALIDTYPE
+11 error typeerror Error: Argument #2: Expected array but got string
+11 error typeerror     at EventEmitter.install (/usr/local/lib/node_modules/npm/lib/install.js:175:3)
+11 error typeerror     at Object.commandCache.(anonymous function) (/usr/local/lib/node_modules/npm/lib/npm.js:216:13)
+11 error typeerror     at /usr/local/lib/node_modules/npm/lib/link.js:89:24
+11 error typeerror     at FSReqWrap.oncomplete (fs.js:83:15)
+12 error typeerror This is an error with npm itself. Please report this error at:
+12 error typeerror     <http://github.com/npm/npm/issues>
+13 verbose exit [ 1, true ]
